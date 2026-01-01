@@ -1,0 +1,18 @@
+# dependencies
+node_modules
+
+# production
+.next
+out
+
+# env
+.env.local
+.env
+.env.production
+
+# misc
+pnpm-lock.yaml
+yarn.lock
+dist
+turbo
+.vercel

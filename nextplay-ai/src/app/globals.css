@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light dark;
+}
+
+body {
+  @apply bg-surface text-white min-h-screen;
+  background-image: var(--background, theme("backgroundImage.grid-glow"));
+  background-attachment: fixed;
+}
+
+* {
+  @apply antialiased;
+}
